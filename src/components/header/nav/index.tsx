@@ -237,7 +237,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="/"
-                className="group flex w-full max-w-[390px] items-center justify-center rounded-[12px] bg-[#FF6435] px-[30px] py-[20px] transition-colors duration-200 ease-in-out xl:max-w-[250px] xl:hover:bg-[#F65E30]"
+                className="group flex w-full max-w-[390px] items-center justify-center rounded-[12px] bg-[#FF6435] px-[30px] py-[20px] transition-colors duration-200 ease-in-out xl:max-w-[210px] xl:hover:bg-[#F65E30]"
               >
                 <p className={`font-bold text-white`}>Get started free</p>
                 <svg
