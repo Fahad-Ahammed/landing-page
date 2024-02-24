@@ -5,5 +5,15 @@
     "subTitle": "Reach and connect with Top Agencies",
     "description": "With a user base of around 100M, India stands next to the US in the Instagram users count. With the advent of the internet in India, there was a huge spike in the total social media users and also the Influencers. Among different Social media platforms, Instagram always remains a",
     "readMoreText": "read more..."
+  },
+  {
+    "stripe": "agencies",
+    "curator":{
+      "img":"/assets/images/curator.png",
+      "title":"Curated by",
+      "name":"jithin",
+      "companyName":"qoruz",
+      "updatedDate":"Updated on Feb 25th 2024"
+    }
   }
 ]
