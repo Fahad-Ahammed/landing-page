@@ -132,12 +132,12 @@ const Navbar = () => {
                     >
                       <div className="group flex h-fit items-center justify-between gap-x-[5px] ">
                         <span
-                          className={`${openNavIndex == index ? "text-[#FF6435]" : "text-black"} text-[18px] font-semibold capitalize leading-[28px] transition-opacity duration-200 ease-in xl:text-[16px] xl:font-[400] xl:leading-[24px] xl:text-[#200D00] xl:opacity-50 xl:group-hover:opacity-100`}
+                          className={`${openNavIndex == index ? "text-[#FF6435] xl:opacity-100 " : "text-black xl:opacity-50 "} text-[18px] font-semibold capitalize leading-[28px] transition-opacity duration-200 ease-in xl:text-[16px] xl:font-[400] xl:leading-[24px] xl:text-[#200D00] xl:group-hover:opacity-100`}
                         >
                           {ele?.title}
                         </span>
                         <svg
-                          className={`${openNavIndex == index ? "rotate-180" : "rotate-0"} opacity-50 duration-200  ease-in-out xl:group-hover:opacity-100`}
+                          className={`${openNavIndex == index ? "rotate-180 opacity-100" : "rotate-0 opacity-50"}  duration-200  ease-in-out xl:group-hover:opacity-100`}
                           width="16"
                           height="16"
                           viewBox="0 0 16 16"
@@ -155,7 +155,7 @@ const Navbar = () => {
                         </svg>
                       </div>
                       <ul
-                        className={`${openNavIndex == index ? "visible max-h-[500px] opacity-100" : "invisible max-h-0 opacity-0"} rounded-[32px] rounded-t-none duration-[400ms] ease-in-out xl:absolute xl:left-0 xl:top-[77px] xl:bg-white`}
+                        className={`${openNavIndex == index ? "visible max-h-[1000px] opacity-100" : "invisible max-h-0 opacity-0"} rounded-[32px] rounded-t-none duration-[300ms] ease-in-out xl:absolute xl:left-0 xl:top-[77px] xl:bg-white xl:shadow-[0px_4px_25px_1px_rgba(0,0,0,0.08)] `}
                       >
                         <div className=" flex flex-col gap-y-[15px] pl-[25px] pt-[25px] xl:w-[340px] xl:gap-y-0 xl:p-[25px] ">
                           {ele.items.map((item: any, index: any) => {
