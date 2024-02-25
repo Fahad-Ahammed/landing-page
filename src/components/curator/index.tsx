@@ -4,7 +4,7 @@ const Index = ({ data }: any) => {
     
   return (
     <>
-      <div className="bg-white xl:border-b xl:py-[15px]">
+      <div className="bg-white md:border-b md:py-[15px]">
         <div className="mx-auto w-[90%] max-w-[1300px]">
           <div className="flex items-center justify-between ">
             <div className="flex items-center gap-x-[15px]">
@@ -23,7 +23,7 @@ const Index = ({ data }: any) => {
                 </div>
               </div>
             </div>
-            <div className="hidden text-[12px] font-[500] leading-[19px] text-[#200D00] xl:block ">
+            <div className="hidden text-[12px] font-[500] leading-[19px] text-[#200D00] md:block ">
               {data?.updatedDate}
             </div>
           </div>

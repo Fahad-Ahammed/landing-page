@@ -132,7 +132,7 @@ const Navbar = () => {
                     >
                       <div className="group flex h-fit items-center justify-between gap-x-[5px] ">
                         <span
-                          className={`${openNavIndex == index ? "text-[#FF6435] xl:opacity-100 " : "text-black xl:opacity-50 "} text-[18px] font-semibold capitalize leading-[28px] transition-opacity duration-200 ease-in xl:text-[16px] xl:font-[400] xl:leading-[24px] xl:text-[#200D00] xl:group-hover:opacity-100`}
+                          className={`${openNavIndex == index ? "text-primary xl:opacity-100 " : "text-black xl:opacity-50 "} text-[18px] font-semibold capitalize leading-[28px] transition-opacity duration-200 ease-in xl:text-[16px] xl:font-[400] xl:leading-[24px] xl:text-[#200D00] xl:group-hover:opacity-100`}
                         >
                           {ele?.title}
                         </span>
@@ -166,11 +166,10 @@ const Navbar = () => {
                               >
                                 <Link href="#" className="">
                                   <div className="flex xl:mb-[16px]">
-                                    <span className="text-[16px] font-[500] capitalize leading-[24px] text-black xl:text-[20px] xl:font-bold xl:text-[#200D00] xl:group-hover:text-[#FF6435] ">
+                                    <span className="text-[16px] font-[500] capitalize leading-[24px] text-black xl:text-[20px] xl:font-bold xl:text-[#200D00] xl:group-hover:text-primary ">
                                       {item?.name}
                                     </span>
                                     <svg
-                                      // className="xl:group-hover:fill-[#FF6435]"
                                       xmlns="http://www.w3.org/2000/svg"
                                       width="24"
                                       height="24"
@@ -237,7 +236,7 @@ const Navbar = () => {
               </Link>
               <Link
                 href="/"
-                className="group flex w-full max-w-[390px] items-center justify-center rounded-[12px] bg-[#FF6435] px-[30px] py-[20px] transition-colors duration-200 ease-in-out xl:max-w-[210px] xl:hover:bg-[#F65E30]"
+                className="group flex w-full max-w-[390px] items-center justify-center rounded-[12px] bg-primary px-[30px] py-[20px] transition-colors duration-200 ease-in-out xl:max-w-[210px] xl:hover:bg-[#F65E30]"
               >
                 <p className={`font-bold text-white`}>Get started free</p>
                 <svg

@@ -8,12 +8,254 @@
   },
   {
     "stripe": "agencies",
-    "curator":{
-      "img":"/assets/images/curator.png",
-      "title":"Curated by",
-      "name":"jithin",
-      "companyName":"qoruz",
-      "updatedDate":"Updated on Feb 25th 2024"
-    }
+    "curator": {
+      "img": "/assets/images/curator.png",
+      "title": "Curated by",
+      "name": "jithin",
+      "companyName": "qoruz",
+      "updatedDate": "Updated on Feb 25th 2024"
+    },
+    "agencyDetails": [
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      },
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      },
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      },
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      },
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      },
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      },
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      },
+      {
+        "logo": "/assets/images/agency.png",
+        "verification_icon": "/assets/images/tick.svg",
+        "title": "MSL (Global)",
+        "features": ["Brand development", "Community management"],
+        "description": "Transforming brands through strategic reputation management and consumer engagement",
+        "companyInfo": [
+          {
+            "type": "employee",
+            "label": "1,001-5,000 employees",
+            "icon": "/assets/images/apartment.svg"
+          },
+          {
+            "type": "location",
+            "label": "paris",
+            "icon": "/assets/images/map-pin.svg"
+          },
+          {
+            "type": "founded",
+            "label": "2009",
+            "icon": "/assets/images/calendar.svg"
+          },
+          {
+            "type": "agency-type",
+            "label": "PR AGENCY",
+            "icon": "/assets/images/factory.svg"
+          }
+        ],
+        "button_label": "post brief"
+      }
+    ]
   }
 ]
