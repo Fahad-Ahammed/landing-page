@@ -1,22 +1,25 @@
 import fs from "fs/promises";
 import path from "path";
-import HeroStripe from "@/templates/hero-stripe";
+import BannerStripe from "@/templates/banner-stripe";
 import Agencies from "@/templates/agencies";
 import BreadCrumb from "@/components/breadcrumb"
-import { Description } from "@/templates/hero-stripe"
+import { Description } from "@/templates/banner-stripe"
+import ExploreStripe from "@/templates/explore-stripe"
 
 export default function Home(props: any) {
   const { pageData } = props ?? {};
-  const heroData = pageData.find((ele: any) => ele?.stripe === "hero");
+  const bannerData = pageData.find((ele: any) => ele?.stripe === "banner");
   const agenciesData = pageData.find((ele: any) => ele?.stripe === "agencies");
   const breadcrumbData=pageData.find((ele:any)=>ele?.stripe==='breadcrumb')
+  const exploreStripeData=pageData.find((ele:any)=>ele?.stripe==='explore')
 
   return (
     <main className={`pt-[80px] xl:pt-[88px]`}>
-      {heroData && <HeroStripe data={heroData} />}
+      {bannerData && <BannerStripe data={bannerData} />}
       {agenciesData &&< Agencies data={agenciesData} />}
       <BreadCrumb data={breadcrumbData?.data} />
-      <Description description={heroData?.description} readMoreLabel={heroData?.readMoreText} />
+      <Description description={bannerData?.description} readMoreLabel={bannerData?.readMoreText} />
+      {exploreStripeData&&<ExploreStripe data={exploreStripeData}  />}
     </main>
   );
 }

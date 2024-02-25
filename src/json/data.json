@@ -1,6 +1,6 @@
 [
   {
-    "stripe": "hero",
+    "stripe": "banner",
     "title": "Top 100 Public Relations Agencies in India (2024)",
     "subTitle": "Reach and connect with Top Agencies",
     "description": "With a user base of around 100M, India stands next to the US in the Instagram users count. With the advent of the internet in India, there was a huge spike in the total social media users and also the Influencers. Among different Social media platforms, Instagram always remains a",
@@ -264,6 +264,29 @@
       "Agency Partnership",
       "Public Relations Agencies",
       "Top 100 Public Relations Agencies in India (2024)"
+    ]
+  },
+  {
+    "stripe": "explore",
+    "title": "Explore More Top Public Relations Agencies",
+    "subTitle": "Leverage influencer tools",
+    "description": "Discover more top PR agencies for effective communication that elevates your brand. Explore innovation and influence in every strategy.",
+    "exploreCard": [
+      {
+        "img": "/assets/images/india.png",
+        "title": "Top 100 Public Relations Agencies in India (2024)",
+        "redirectionText": "explore"
+      },
+      {
+        "img": "/assets/images/mumbai.png",
+        "title": "Top  25 Public Relations Agencies in Mumbai (2024)",
+        "redirectionText": "explore"
+      },
+      {
+        "img": "/assets/images/bengaluru.png",
+        "title": "Top 25 Public Relations Agencies in Bangalore (2024)",
+        "redirectionText": "explore"
+      }
     ]
   }
 ]
