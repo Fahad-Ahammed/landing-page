@@ -2,16 +2,17 @@ import React from "react";
 import Image from "next/image";
 import { articulate } from "@/fonts";
 import Link from "next/link";
+import styles from "./agency-card.module.css";
 
 const Index = ({ data }: any) => {
   return (
     <>
       <Link
         href="/"
-        className="group block mb-[30px] last:mb-0 md:mb-0 rounded-[24px] md:rounded-none p-[25px] shadow-[0px_1px_3px_0px_#00000026] 
-      md:border-b md:border-[#99999933] md:shadow-none md:last:border-none"
+        className={`${styles["agency-card"]} group mb-[30px] block rounded-[24px] p-[25px] shadow-[0px_1px_3px_0px_#00000026] last:mb-0 md:mb-0 md:rounded-none 
+      md:border-b md:border-[#99999933] md:shadow-none md:last:border-none`}
       >
-        <div className="flex flex-col items-start gap-x-[15px] gap-y-[10px] duration-300 ease-in-out md:flex-row md:gap-x-[20px] md:gap-y-0 xl:group-hover:translate-y-[-1px]">
+        <div className="flex flex-col items-start gap-x-[15px] gap-y-[10px] md:flex-row md:gap-x-[20px] md:gap-y-0">
           <div className="flex gap-x-[5px] md:gap-x-[10px] ">
             <div className="relative h-[70px] w-[70px] md:h-[50px] md:w-[50px] ">
               <Image
@@ -54,7 +55,9 @@ const Index = ({ data }: any) => {
               </div>
             </div>
           </div>
-          <div className="mb-[25px] md:mb-0">
+          <div
+            className={`xl:group-hover:translate-y-[-2px duratio\n-300 ease-linea mb-[25px] md:mb-0 ${styles["agency-card-info"]}`}
+          >
             <div
               className={`${articulate.className} mb-[5px] hidden text-[20px] leading-[26px] text-secondary duration-300 ease-in-out md:block xl:mb-[10px] xl:group-hover:text-primary `}
             >
@@ -91,7 +94,7 @@ const Index = ({ data }: any) => {
               })}
             </div>
           </div>
-          <button className="flex w-full items-center justify-center gap-x-[4px] rounded-[10px] bg-primary py-[10px] text-center text-[14px] font-semibold capitalize leading-[21px] text-white duration-300 ease-in-out md:ml-auto md:max-w-[112px] md:self-center md:border md:border-[#99999933] md:bg-white md:px-[10px] md:text-secondary xl:group-hover:bg-primary xl:group-hover:text-white transition-colors max-md:max-w-[400px] max-md:mx-auto">
+          <button className="flex w-full items-center justify-center gap-x-[4px] rounded-[10px] bg-primary py-[10px] text-center text-[14px] font-semibold capitalize leading-[21px] text-white transition-colors duration-300 ease-in-out max-md:mx-auto max-md:max-w-[400px] md:ml-auto md:max-w-[112px] md:self-center md:border md:border-[#99999933] md:bg-white md:px-[10px] md:text-secondary xl:group-hover:bg-primary xl:group-hover:text-white">
             <span>{data?.button_label}</span>
             <span>
               <svg

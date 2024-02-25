@@ -1,0 +1,15 @@
+.agency-card-info {
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition:
+    transform 300ms ease-in-out,
+    -webkit-transform 300ms ease-in-out;
+}
+
+.agency-card:hover .agency-card-info {
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
