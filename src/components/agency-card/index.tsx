@@ -8,7 +8,7 @@ const Index = ({ data }: any) => {
     <>
       <Link
         href="/"
-        className="group block mb-[30px] last:mb-0 xl:mb-0 rounded-[24px] p-[25px] shadow-[0px_1px_3px_0px_#00000026] 
+        className="group block mb-[30px] last:mb-0 md:mb-0 rounded-[24px] md:rounded-none p-[25px] shadow-[0px_1px_3px_0px_#00000026] 
       md:border-b md:border-[#99999933] md:shadow-none md:last:border-none"
       >
         <div className="flex flex-col items-start gap-x-[15px] gap-y-[10px] duration-300 ease-in-out md:flex-row md:gap-x-[20px] md:gap-y-0 xl:group-hover:translate-y-[-1px]">

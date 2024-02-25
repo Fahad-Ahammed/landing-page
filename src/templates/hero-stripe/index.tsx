@@ -14,20 +14,36 @@ const Index = ({ data }: any) => {
               {data?.title}
             </h2>
           </div>
-          <div className="hidden lg:block">
-            <p className="inline text-center text-[18px] leading-[29px] text-white opacity-50  mr-[5px]">
-              {data?.description}
-            </p>
-            <Link
-              href="/"
-              className="cursor-pointer text-[18px] leading-[29px] text-primary underline "
-            >
-              {data?.readMoreText}
-            </Link>
+          <div className="lg:min-h-[90px]  " >
+            <Description
+              from={"bannerStripe"}
+              description={data?.description}
+              readMoreLabel={data?.readMoreText}
+            />
           </div>
         </div>
       </section>
     </>
+  );
+};
+
+export const Description = (props: any) => {
+  const style = {
+    container:
+      props?.from == "bannerStripe"
+        ? "hidden lg:block"
+        : "w-[90%] mt-[50px] mx-auto max-w-[1300px] lg:hidden",
+    description: `w-full mr-[5px] text-center ${props?.from == "bannerStripe" ? "text-[18px] leading-[29px] text-white/50" : "text-[16px] leading-[24px] text-[#4D3D33]"} `,
+    readMore: `text-primary ${props?.from == "bannerStripe" ? "underline cursor-pointer text-[18px] leading-[29px] " : "text-[16px] leading-[24px]"}`,
+  };
+
+  return (
+    <div className={style.container}>
+      <p className={style.description}>
+        {props?.description}{" "}
+        <span className={style.readMore}>{props?.readMoreLabel}</span>
+      </p>
+    </div>
   );
 };
 

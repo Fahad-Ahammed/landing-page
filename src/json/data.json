@@ -257,5 +257,13 @@
         "button_label": "post brief"
       }
     ]
+  },
+  {
+    "stripe": "breadcrumb",
+    "data": [
+      "Agency Partnership",
+      "Public Relations Agencies",
+      "Top 100 Public Relations Agencies in India (2024)"
+    ]
   }
 ]
