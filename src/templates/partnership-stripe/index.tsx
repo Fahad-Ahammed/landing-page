@@ -5,7 +5,7 @@ const Index = ({ data }: any) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section className="bg-white py-[50px] ">
+    <section className="bg-white py-[50px] mb-[50px]">
       <div className="mx-auto w-[90%] max-w-[1120px] rounded-[24px] bg-[#F5F1EA] pt-[25px] sm:pt-[40px] md:pt-0">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="mb-[25px] px-[25px] md:mb-0 md:px-[30px] lg:px-[35px] xl:px-[45px] md:flex md:flex-col  md:justify-center ">
@@ -73,7 +73,7 @@ const Index = ({ data }: any) => {
               </div>
             </div>
           </div>
-          <div className=" rounded-tr-[24px] rounded-br-[24px] overflow-hidden">
+          <div className=" md:rounded-tr-[24px] max-md:rounded-bl-[24px] rounded-br-[24px] overflow-hidden">
             <Image
               src="/assets/images/partnership.png"
               alt="partnership"

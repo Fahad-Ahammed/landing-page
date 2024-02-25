@@ -1,4 +1,5 @@
 import Header from "../header";
+import Footer from "../footer";
 import { inter } from "@/fonts";
 
 const Layout = ({ children }: any) => {
@@ -7,7 +8,7 @@ const Layout = ({ children }: any) => {
       <div className={inter.className}>
         <Header />
         <main className={``}>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
