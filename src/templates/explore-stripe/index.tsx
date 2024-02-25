@@ -5,7 +5,7 @@ import React from "react";
 
 const Index = ({ data }: any) => {
   return (
-    <section className="my-[50px] bg-white lg:mt-[80px] ">
+    <section className="my-[50px] bg-white lg:mt-[80px]  ">
       <div className="mx-auto w-[90%] max-w-[1300px] ">
         <div className="mb-[50px] text-center xl:mb-[80px]  ">
           <h3
@@ -22,7 +22,7 @@ const Index = ({ data }: any) => {
             {data?.description}
           </p>
         </div>
-        <div className="bg-rd-300 mx-auto grid w-full max-w-[1120px] grid-cols-1  gap-x-[35px] gap-y-[50px] md:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid w-full max-w-[1120px] grid-cols-1  gap-x-[35px] gap-y-[50px] md:grid-cols-2 lg:grid-cols-3">
           {data?.exploreCard?.map((ele: any, index: any) => {
             return (
               <React.Fragment key={index}>

@@ -288,5 +288,19 @@
         "redirectionText": "explore"
       }
     ]
+  },
+  {
+    "stripe": "partnership",
+    "title": "Are you an agency?",
+    "description": "Join the Qoruz agency partnership programme!",
+    "registerLabel": "Register Now",
+    "whyRegister": {
+      "label": "Why Register",
+      "featureList": [
+        "Become listed among industry top marketing agencies.",
+        "Generate quality leads.",
+        "Promote your digital agency."
+      ]
+    }
   }
 ]
