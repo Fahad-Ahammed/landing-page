@@ -60,7 +60,7 @@ const Card = ({data}:any) => {
             </span>
             <span>
               <svg
-                className="duration-300 ease-in-out xl:group-hover:-translate-y-[2px] xl:group-hover:translate-x-[2px]"
+                className="duration-300 stroke-secondary xl:group-hover:stroke-primary ease-in-out xl:group-hover:-translate-y-[2px] xl:group-hover:translate-x-[2px]"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -69,14 +69,14 @@ const Card = ({data}:any) => {
               >
                 <path
                   d="M5 17.8491L14.8995 7.94963"
-                  stroke="#200D00"
+                  // stroke="#200D00"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M5 7.94971H14.8995V17.8492"
-                  stroke="#200D00"
+                  // stroke="#200D00"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
