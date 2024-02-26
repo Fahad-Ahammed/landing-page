@@ -1,5 +1,6 @@
 import { articulate } from "@/fonts/index";
 import Link from "next/link";
+import { useState } from "react";
 
 const Index = ({ data }: any) => {
   return (
@@ -28,20 +29,21 @@ const Index = ({ data }: any) => {
 };
 
 export const Description = (props: any) => {
+  const [readLess,setReadLess]=useState(false)
   const style = {
     container:
       props?.from == "bannerStripe"
         ? "hidden lg:block"
         : "w-[90%] mt-[50px] mx-auto max-w-[1300px] lg:hidden",
-    description: `w-full mr-[5px] text-center ${props?.from == "bannerStripe" ? "text-[18px] leading-[29px] text-white/50" : "text-[16px] leading-[24px] text-[#4D3D33]"} `,
+    description: `duration-300 ease-in w-full mr-[5px] text-center ${props?.from == "bannerStripe" ? "text-[18px] leading-[29px] text-white/50" : "text-[16px] leading-[24px] text-[#4D3D33]"} `,
     readMore: `text-primary ${props?.from == "bannerStripe" ? "underline cursor-pointer text-[18px] leading-[29px] " : "text-[16px] leading-[24px]"}`,
   };
 
   return (
     <div className={style.container}>
       <p className={style.description}>
-        {props?.description}{" "}
-        <span className={style.readMore}>{props?.readMoreLabel}</span>
+        {readLess?props?.description:props?.description.slice(0, 350)}{" "}
+        <span onClick={()=>setReadLess(!readLess)} className={style.readMore}>{readLess?"read less":props?.readMoreLabel}</span>
       </p>
     </div>
   );
